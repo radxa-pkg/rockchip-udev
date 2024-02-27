@@ -1,3 +1,20 @@
+rockchip-udev (0.3.1) jammy; urgency=medium
+
+  [ ZHANG Yuntian ]
+  * Fix CI
+
+  [ dependabot[bot] ]
+  * Bump actions/checkout from 3 to 4
+
+  [ dependabot[bot] ]
+  * Bump actions/upload-artifact from 3 to 4
+
+  [ dependabot[bot] ]
+  * Bump actions/download-artifact from 3 to 4
+  * Remove distribution restriction
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Tue, 27 Feb 2024 06:48:43 +0000
+
 rockchip-udev (0.3.0) stable; urgency=medium
 
   * Split from radxa-profiles
