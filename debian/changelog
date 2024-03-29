@@ -1,3 +1,13 @@
+rockchip-udev (0.3.3) jammy; urgency=medium
+
+  [ dependabot[bot] ]
+  * Bump softprops/action-gh-release from 1 to 2
+
+  [ ZHANG Yuntian ]
+  * revert: feat: drop drm-hotplug.sh
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Fri, 29 Mar 2024 10:21:22 +0000
+
 rockchip-udev (0.3.2) jammy; urgency=medium
 
   [ ZHANG Yuntian ]
