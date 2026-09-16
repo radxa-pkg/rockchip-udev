@@ -1,1 +1,2 @@
-ACTION=="add", SUBSYSTEM=="video4linux", ENV{ID_V4L_PRODUCT}=="*_mainpath", SYMLINK+="video-camera0"
+ACTION=="add", SUBSYSTEM=="video4linux", ENV{ID_V4L_PRODUCT}=="*_mainpath", ENV{ID_PATH}=="platform-rkisp0-vir0", SYMLINK+="video-camera0"
+ACTION=="add", SUBSYSTEM=="video4linux", ENV{ID_V4L_PRODUCT}=="*_mainpath", ENV{ID_PATH}=="platform-rkisp1-vir1", SYMLINK+="video-camera1"
